@@ -71,7 +71,9 @@ If you want to go a bit more in depth about how the browsers parse CSS, [check o
 
 All of the aforementioned is fine, but it only mentions a single rendering pass. Today's websites are no longer static documents, but resemble apps with dynamic, interactable content.
 
-This complicates things, since parsing CSS in only a single step in the browser rendering pipeline. 
+This complicates things, since parsing CSS in only a single step in the browser rendering pipeline.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDI4NTk2Nl19
+eyJoaXN0b3J5IjpbODk1MDMzMTgyXX0=
 -->
