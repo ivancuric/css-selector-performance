@@ -26,8 +26,8 @@ Ben Frain created [a series of tests](https://benfrain.com/css-performance-revis
 
 However, that was back in 2014. Things have changed a lot since then, and memorizing rules is all but useless in the ever-changing browser landscape. Always remember to do your own tests, especially when performance is concerned.
 
-I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Paul Irish's comment](https://alistapart.com/comments/quantity-queries-for-css#338752) expressing concern on the convoluted "[quantity selectors](https://alistapart.com/article/quantity-queries-for-css)".  Always listen to the 
+I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Paul Irish's comment](https://alistapart.com/comments/quantity-queries-for-css#338752) expressing concern on the convoluted "[quantity selectors](https://alistapart.com/article/quantity-queries-for-css)".  Always listen to those 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzkwNzA4OV19
+eyJoaXN0b3J5IjpbMTgwNjYyOTI5M119
 -->
