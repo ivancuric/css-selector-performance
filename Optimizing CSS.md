@@ -75,8 +75,8 @@ This complicates things, since parsing CSS in only a single step in the browser 
 
 ![The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)](https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg)
 
-
+<figcaption>The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)</figcaption>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTgwMzkxN119
+eyJoaXN0b3J5IjpbLTExMDYxMTM2NTRdfQ==
 -->
