@@ -103,7 +103,9 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
+
 [Reduce the Scope and Complexity of Style Calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
+
 [https://csswizardry.com/2011/09/writing-efficient-css-selectors/](https://csswizardry.com/2011/09/writing-efficient-css-selectors/)
 
 [Quantity Queries for CSS](https://alistapart.com/article/quantity-queries-for-css)
@@ -112,5 +114,5 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODI0NjE1MV19
+eyJoaXN0b3J5IjpbLTEyODM0NTM5NDVdfQ==
 -->
