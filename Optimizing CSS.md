@@ -103,7 +103,7 @@ To sum it up, you shouldn't worry about selector performance, unless you _really
 
 Instead, focus on making your CSS maintainable and readable. Your colleagues and your future self will thank you for it. Try to optimize the CSS delivery by including only the used styles. And after that - get to know the rendering pipeline. Unlike selectors, styles themselves _can_ be expensive, and the difference between a janky site and a smooth one can often be found mostly in the CSS.
 
-And as a final note: always do your own tests. Don't just believe what someone wrote on the internet 
+And as a final note: always do your own tests. Don't just believe what someone wrote on the internet a few years ago. The landscape is changing drastically at an incredible pace, and what's relevant today might become obsolete faster than you know.
 
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
@@ -124,5 +124,5 @@ And as a final note: always do your own tests. Don't just believe what someone w
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODcwMDk3OF19
+eyJoaXN0b3J5IjpbLTE3ODUzOTY1OTVdfQ==
 -->
