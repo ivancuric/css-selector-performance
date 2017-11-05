@@ -28,7 +28,11 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Paul Irish's comment](https://alistapart.com/comments/quantity-queries-for-css#338752) expressing concern on the convoluted "[quantity selectors](https://alistapart.com/article/quantity-queries-for-css)". 
 
-The test was bumped up a bit, to 50000 elements, and you can [check it out yourself](https://codepen.io/ivancuric/pen/ZaWxqV). I did an average 
+The test was bumped up a bit, to 50000 elements, and you can [check it out yourself](https://codepen.io/ivancuric/pen/ZaWxqV). I did an average of 10 runs, and what I got was the following:
+|  |  |
+|--|--|
+|  |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg2NzYxMjldfQ==
+eyJoaXN0b3J5IjpbMTIyODQ0MDM0OF19
 -->
