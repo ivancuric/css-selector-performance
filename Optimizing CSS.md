@@ -101,6 +101,8 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 ## Summary
 
+Well, you probably got what you 
+
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
 
@@ -120,5 +122,5 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDE1NzU5OV19
+eyJoaXN0b3J5IjpbNTY5NTk5ODIwXX0=
 -->
