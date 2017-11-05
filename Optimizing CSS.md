@@ -49,7 +49,7 @@ The results will of course vary depending if you use `querySelector` or `querySe
 
 Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, we find that the slowest one is ~20ms, while the fastest is the simple class at ~3.5ms. Not really that much of a difference. In a realistic, more "tame" DOM, with around 1000 - 5000 nodes, you can expect those results to drop by a factor of 10, bringing them to sub-millisecond parsing speeds.
 
-What we 
+What we can learn from t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY0NjEzOTZdfQ==
+eyJoaXN0b3J5IjpbLTY2ODcxMzY2Ml19
 -->
