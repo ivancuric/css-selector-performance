@@ -5,7 +5,7 @@ In today’s typical scenario where the average website ships 500k of gzipped Ja
 
 Still, there’s something to be said about the topic, especially to weed out some of the myths and legends surrounding them. So let’s dive right in.
 
-First, to get on the same page --- this article isn’t about CSS property and value performance, that’s a topic for a whole other article. What we’re covering today is the performance cost of the selectors themselves. The article will be focusing on the Blink rendering engine, specifically Chrome 62.
+First, to get on the same page --- this article isn’t about the performance of CSS properties and values. What we’re covering today is the performance cost of the selectors themselves. I will be focusing on the Blink rendering engine, specifically Chrome 62.
 
 The selectors can roughly be split in a few groups and (roughly) sorted from the least to most expensive.
 
@@ -27,5 +27,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NDEwMjkxXX0=
+eyJoaXN0b3J5IjpbLTEyMDk0Mjk3NzZdfQ==
 -->
