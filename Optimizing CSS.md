@@ -81,7 +81,7 @@ The browser rendering pipeline. Source: Paul Lewis (https://developers.google.co
 
 We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing and laying out the elements.
 
-After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. This 
+After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. First, the browser nee
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY4MDkzOTZdfQ==
+eyJoaXN0b3J5IjpbLTkzMTQ1MTE2NV19
 -->
