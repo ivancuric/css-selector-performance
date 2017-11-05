@@ -74,10 +74,11 @@ All of the aforementioned is fine, but it only mentions a single rendering pass.
 This complicates things, since parsing CSS in only a single step in the browser rendering pipeline.
 <figure>
 <img src="https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg" alt="The browser rendering pipeline">
-<figcaption>The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)</figcaption>
+<figcaption>
+The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)</figcaption>
 </figure>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzA5MTI2MF19
+eyJoaXN0b3J5IjpbNTY1OTMxMzcwXX0=
 -->
