@@ -24,7 +24,7 @@ Does this mean that you should only use IDs and classes? Well… Not really. Dep
 
 Browsers read CSS from right to left. The rightmost selector in a compound selector is know as the key selector. So for instance in `#id .class > ul a`, the key selector is `a`. The browser first matches all key selectors --- in this case it finds all elements on the page that match te `a` selector. It then finds all `ul` elements on the page and filters the `a`s to contain only those elements that are descendants of `ul`s, and so on until it reaches the leftmost selector.
 
-If you want to go a bit more in depth about how the browsers parse CSS, check out Nicole Sullivan's post on Webkit, [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/).
+If you want to go a bit more in depth about how the browsers parse CSS, [check out Nicole Sullivan's post on Webkit](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/).
 
 So here’s the first tip: the shorter the selector the better, and make sure that if possible, you keep the key selector a class or ID.
 
@@ -67,5 +67,5 @@ A bigger problem of simply having expensive selectors is having _a lot_ of them.
 
 Not only does a large CSS file take longer to transfer, (and network is the _biggest_ bottleneck in website performance), they also take longer to parse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE1NDY4NTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNTQwNzY1Ml19
 -->
