@@ -95,9 +95,13 @@ We invalidate the computed styles and the browser needs to invalidate _everythin
 
 One way to avoid this issue is to reduce the complexity of your selectors. Instead of writing `#nav > ul > li > a`, use a single selector, like `.nav-link`. That way you reduce the scope of style invalidation.
 
-Another way is to reduce the scope, eg the number of invalidated elements. Be specific with your CSS.
+Another way is to reduce the scope, eg the number of invalidated elements. Be specific with your CSS. Keep this in mind especially during animations, where the browser has only ~10ms to do all the work required.
 
-Keep this in mind especially during animations, where you have only ~10ms to do all the   
+You can find 
+
+## Summary
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNDUzOTNdfQ==
+eyJoaXN0b3J5IjpbLTE2MjgzNDA4NjddfQ==
 -->
