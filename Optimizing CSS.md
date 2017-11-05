@@ -43,7 +43,9 @@ The test was bumped up a bit, to 50000 elements, and you can [test it out yourse
 | `.box:not(:empty):last-of-type .title` | 8.020263671875 |
 | `.box:nth-last-child(n+6) ~ div` | 20.87109375 |
 
-The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but 
+The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but `querySelectorAll` comes closer to the real use case of CSS. 
+
+Even  in such an extreme case (50000 elements to match), 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDY4MTMzNl19
+eyJoaXN0b3J5IjpbMTYzODMyNjU0NF19
 -->
