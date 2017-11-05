@@ -83,11 +83,11 @@ We won't be going into JavaScript performance and compositing, but will focus in
 
 After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. In that step, the browser needs to figure out the calculated CSS for each matching element. You can see this yourself in the inspect panel of the Developer Tools. It takes all the matching styles, the cascade, and browser-specific styles to constructe the final - calculated CSS for the element.
 
-It can then proceed to the layout (also known as reflow) step, where it calculates the geometry, and constructs the box model of the page, placing each element on its respective position on the viewport.
+It can then proceed to the layout (also known as reflow) step, where it calculates the geometry, and constructs the box model of the page, placing each element on its respective position on the viewport. Layout is the most computationally intensive part of this process.
 
 Finally, the browser converts each node in the render tree to actual pixels on the screen in the paint stage.
 
-Layout is the most CPU intensive process
+Now, what happens when we _change_ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIyNTk0MDZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTY0OTkyMjRdfQ==
 -->
