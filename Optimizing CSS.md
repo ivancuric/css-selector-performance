@@ -43,7 +43,7 @@ The test was bumped up a bit, to 50000 elements, and you can [test it out yourse
 | `.box:not(:empty):last-of-type .title` | 8.020263671875 |
 | `.box:nth-last-child(n+6) ~ div` | 20.87109375 |
 
-The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, 
+The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTkzNTMyNTddfQ==
+eyJoaXN0b3J5IjpbMTk0NDY4MTMzNl19
 -->
