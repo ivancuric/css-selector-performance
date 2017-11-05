@@ -5,6 +5,8 @@ In today’s typical scenario where the average website ships 500k of gzipped Ja
 
 Still, there’s something to be said about the topic, especially to weed out some of the myths and legends surrounding them. So let’s dive right in.
 
+## The basics of css parsing
+
 First, to get on the same page --- this article isn’t about the performance of CSS properties and values. What we’re covering today is the performance cost of the selectors themselves. I will be focusing on the Blink rendering engine, specifically Chrome 62.
 
 The selectors can be split in a few groups and (roughly) sorted from the least to most expensive.
@@ -21,6 +23,8 @@ The selectors can be split in a few groups and (roughly) sorted from the least t
 Does this mean that you should only use IDs and classes? Well… Not really. Depends. First let’s cover how browsers interpret CSS selectors.
 
 Browsers read CSS from right to left. The rightmost selector in a compound selector is know as the key selector. So for instance in `#id .class > ul a`, the key selector is `a`. The browser first matches all key selectors --- in this case it finds all elements on the page that match te `a` selector. It then finds all `ul` elements on the page and filters the `a`s to contain only those elements that are descendants of `ul`s, and so on until it reaches the leftmost selector. So here’s the first tip: the shorter the selector the better, and make sure that if possible, you keep the key selector a class or ID.
+
+## Measuring the performance
 
 Ben Frain created [a series of tests](https://benfrain.com/css-performance-revisited-selectors-bloat-expensive-styles/) to measure selector performance back in 2014. The test consisted of an enormous DOM consisting of 1000 identical elements, and measuring the speed it took to parse various selectors, ranging from IDs to some seriously complicated and long compound selectors. What he found was that the delta between the slowest and fastest selector was ~15ms.
 
@@ -51,7 +55,9 @@ Even  in such an extreme case, with 50000 elements to match, and using some real
 
 What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors.
 
-You _should_ however stick to using classes whenever possible, and adopt some sort of namespacing convention like BEM, SMACSS, OOCSS since it will not only help your website's performance but vastly help with code maintainability. Compound selectors, especially when used with tag and universal selectors, eg `.header nav ul > li a > .inner` are extremely brittle and a source of many unforseen errors, while also being a nightmare to maintain, especially if 
+You _should_ however stick to using classes whenever possible, and adopt some sort of namespacing convention like BEM, SMACSS, OOCSS since it will not only help your website's performance but vastly help with code maintainability. Compound selectors, especially when used with tag and universal selectors, eg `.header nav ul > li a > .inner` are extremely brittle and a source of many unforseen errors, while also being a nightmare to maintain, especially if inherit it from someone else.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQwMDU1MjNdfQ==
+eyJoaXN0b3J5IjpbMTQwMjU1MTExMl19
 -->
