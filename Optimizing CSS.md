@@ -110,9 +110,11 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 [Quantity Queries for CSS](https://alistapart.com/article/quantity-queries-for-css)
 
-[Appendix 2: Browser representatives on CSS performance](http://ecss.io/appendix2.html)
+[CSS Selector performance. An appendix to the book, ECSS that deals with architecting CSS](http://ecss.io/appendix1.html)
+
+[CSS Selector performance. An appendix to the book, ECSS that deals with architecting CSS](http://ecss.io/appendix2.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDk3Mjg4MF19
+eyJoaXN0b3J5IjpbLTEzNjY0ODI2MzRdfQ==
 -->
