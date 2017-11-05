@@ -55,7 +55,7 @@ The results will of course vary depending if you use `querySelector` or `querySe
 
 Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, we find that the slowest one is ~20ms, while the fastest is the simple class at ~3.5ms. Not really that much of a difference. In a realistic, more "tame" DOM, with around 1000 - 5000 nodes, you can expect those results to drop by a factor of 10, bringing them to sub-millisecond parsing speeds.
 
-What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors. We can also see how Blink improved in the last 2 years. Instead of the stated ~500x slowdown for a "quantity selector" (`.box:nth-last-child(n+6) ~ div`) compared to an "insanity selector" (`.box:not(:empty):last-of-type .title`), we only see a ~1.5x slowdown. That's an amazing improvement, and we can only expect browsers to get better, ma
+What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors. We can also see how Blink improved in the last 2 years. Instead of the stated ~500x slowdown for a "quantity selector" (`.box:nth-last-child(n+6) ~ div`) compared to an "insanity selector" (`.box:not(:empty):last-of-type .title`), we only see a ~1.5x slowdown. That's an amazing improvement, and we can only expect browsers to get better, making 
 
 You _should_ however stick to using classes whenever possible, and adopt some sort of namespacing convention like BEM, SMACSS, OOCSS since it will not only help your website's performance but vastly help with code maintainability. Overqualified compound selectors, especially when used with tag and universal selectors, eg `.header nav ul > li a > .inner` are extremely brittle and a source of many unforseen errors. They are also a nightmare to maintain, especially if you inherit it from someone else.
 
@@ -69,5 +69,5 @@ Today's browsers
 
 If you want to go a bit more in depth about how the browsers parse CSS, [check out Nicole Sullivan's post on Webkit](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY4Mjg5OV19
+eyJoaXN0b3J5IjpbMTcxMTA5MDY5Nl19
 -->
