@@ -91,7 +91,7 @@ Finally, the browser converts each node in the render tree to actual pixels on t
 
 Now, what happens when we _change_ some classes on the page?
 
-The browser needs to invalidate _everything_ down the tree. While today's browsers are 
+The browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ3NDM0NjhdfQ==
+eyJoaXN0b3J5IjpbLTIxMTMyODQwODJdfQ==
 -->
