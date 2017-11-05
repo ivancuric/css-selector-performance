@@ -83,7 +83,7 @@ We won't be going into JavaScript performance and compositing, but will focus in
 
 After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. In that step, the browser needs to figure out the calculated CSS for each matching element. You can see this yourself in the inspect panel of the Developer Tools. It takes all the matching styles, the cascade, and browser-specific styles to constructe the final - calculated CSS for the element.
 
-It then can
+It can then proceed to the layout step, where it calculates the geometry and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA3NzMyNjNdfQ==
+eyJoaXN0b3J5IjpbOTU5MDEwMjkyXX0=
 -->
