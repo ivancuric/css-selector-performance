@@ -91,7 +91,7 @@ Finally, the browser converts each node in the render tree to actual pixels on t
 
 Now, what happens when we _change_ some classes on the page?
 
-The browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are much smarter, it used to be the case 
+The browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are much smarter, it used to be the case that if you changed a class on the `body` element, the whole page need to have their computed styles recalculated.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDAwOTUwXX0=
+eyJoaXN0b3J5IjpbMTg5MDk0MzI5OF19
 -->
