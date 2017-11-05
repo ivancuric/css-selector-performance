@@ -81,7 +81,7 @@ The browser rendering pipeline. Source: Paul Lewis (https://developers.google.co
 
 We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing and laying out the elements.
 
-After constructing the DOM and CSSOM, the brow
+After constructing the DOM and CSSOM, the browser needs to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODE1MDU0XX0=
+eyJoaXN0b3J5IjpbNjAwNDI0MjYwXX0=
 -->
