@@ -31,17 +31,19 @@ I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Pa
 The test was bumped up a bit, to 50000 elements, and you can [test it out yourself](https://codepen.io/ivancuric/pen/ZaWxqV). I did an average of 10 runs on my 2014 MacBook Pro, and what I got was the following:
 | Selector | Query Time (ms) |
 |--|--|
-|`div` | 30.5400 |
-|`.box` | 4.708 |
-|`.box > .title` | 5.144 |
-|`.box .title` | 4.6821 |
-|`.box ~ .box` | 4.8462 |
-|`.box + .box` | 4.919 |
-|`.box:last-of-type` | 3.8540 |
-|`.box:nth-of-type(2n - 1)` | 18.1350 |
-|`.box:not(:last-of-type)` | 5.6420 |
-|`.box:not(:first-of-type)` | 5.1269 |
+| `div` | 4.8740234375 |
+| `.box` | 3.625 |
+| `.box > .title` | 4.458740234375 |
+| `.box .title` | 4.51611328125 |
+| `.box ~ .box` | 4.708251953125 |
+| `.box + .box` | 4.6611328125 |
+| `.box:last-of-type` | 3.94482421875 |
+| `.box:nth-of-type(2n - 1)` | 16.84912109375 |
+| `.box:not(:last-of-type)` | 5.894775390625 |
+| `.box:not(:empty):last-of-type .title` | 8.020263671875 |
+| `.box:nth-last-child(n+6) ~ div` | 20.87109375 |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Nzc0NzA3XX0=
+eyJoaXN0b3J5IjpbLTg3NTMzNDAxMF19
 -->
