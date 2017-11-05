@@ -81,7 +81,7 @@ The browser rendering pipeline. Source: Paul Lewis (https://developers.google.co
 
 We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing and laying out the elements.
 
-To keep it short, as we said in the 
+To keep it short, as we said in the previous 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNjE4Nzc5XX0=
+eyJoaXN0b3J5IjpbNjMxNjMyNjg4XX0=
 -->
