@@ -26,7 +26,8 @@ Ben Frain created [a series of tests](https://benfrain.com/css-performance-revis
 
 However, that was back in 2014. Things have changed a lot since then, and memorizing rules is all but useless in the ever-changing browser landscape. Always remember to do your own tests, especially when performance is concerned.
 
+I went to do my own tests, and 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzY1MDUwNl19
+eyJoaXN0b3J5IjpbLTM0NDk3NDQwOV19
 -->
