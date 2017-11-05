@@ -35,13 +35,13 @@ The test was bumped up a bit, to 50000 elements, and you can [check it out yours
 |`.box` | 4.708 |
 |`.box > .title` | 5.144 |
 |`.box .title` | 4.6821 |
-|`.box ~ .box` | 4.8462ms |
-|`.box + .box` | 4.919ms |
+|`.box ~ .box` | 4.8462 |
+|`.box + .box` | 4.919 |
 |`.box:last-of-type` | 3.8540ms |
 |`.box:nth-of-type(2n - 1)` | 18.1350ms |
 |`.box:not(:last-of-type)` | 5.6420ms |
 |`.box:not(:first-of-type)` | 5.1269ms |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAzNjg0MzhdfQ==
+eyJoaXN0b3J5IjpbLTU0MjcwNzg0Ml19
 -->
