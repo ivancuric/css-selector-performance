@@ -99,7 +99,7 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 ## What now?
 
-To sum it up, you shouldn't worry about selector performance. While the topic was all the rage 
+To sum it up, you shouldn't worry about selector performance. While the topic was all the rage 5 years ago, browsers have gotten a _lot_ faster and smarter. Even
 
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
@@ -120,5 +120,5 @@ To sum it up, you shouldn't worry about selector performance. While the topic wa
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ5MzAwMjVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTU0Nzc2MDFdfQ==
 -->
