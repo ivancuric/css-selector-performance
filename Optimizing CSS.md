@@ -40,8 +40,8 @@ The test was bumped up a bit, to 50000 elements, and you can [check it out yours
 |`.box:last-of-type` | 3.8540 |
 |`.box:nth-of-type(2n - 1)` | 18.1350 |
 |`.box:not(:last-of-type)` | 5.6420 |
-|`.box:not(:first-of-type)` | 5.1269ms |
+|`.box:not(:first-of-type)` | 5.1269 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY0MTI1MDhdfQ==
+eyJoaXN0b3J5IjpbODE0NDYxOTYyXX0=
 -->
