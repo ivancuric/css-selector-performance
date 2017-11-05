@@ -31,8 +31,17 @@ I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Pa
 The test was bumped up a bit, to 50000 elements, and you can [check it out yourself](https://codepen.io/ivancuric/pen/ZaWxqV). I did an average of 10 runs, and what I got was the following:
 |  |  |
 |--|--|
-|  |  |
+|div | 30.5400390625ms |
+|.box | 4.708984375ms |
+|.box > .title | 5.144775390625ms |
+|.box .title | 4.68212890625ms |
+|.box ~ .box | 4.846923828125ms |
+|.box + .box | 4.919189453125ms |
+|.box:last-of-type | 3.85400390625ms |
+|.box:nth-of-type(2n - 1) | 18.135009765625ms |
+|.box:not(:last-of-type) | 5.64208984375ms |
+|.box:not(:first-of-type) | 5.126953125ms |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODQ0MDM0OF19
+eyJoaXN0b3J5IjpbLTgyNDkwNzc3NV19
 -->
