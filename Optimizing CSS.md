@@ -87,7 +87,7 @@ It can then proceed to the layout (also known as reflow) step, where it calculat
 
 Finally, the browser converts each node in the render tree to actual pixels on the screen in the paint stage.
 
-Now, what happens when we _change_ 
+Now, what happens when we _change_ some styles 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY0OTkyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE5MzY0MTE0MzRdfQ==
 -->
