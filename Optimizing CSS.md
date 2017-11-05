@@ -19,7 +19,7 @@ The selectors can roughly be split in a few groups and (roughly) sorted from the
 - Pseudo-classes and elements, `a:first-of-type`
 
 Does this mean that you should only use IDs and classes? Well… Not really. Depends. First let’s cover how browsers interpret CSS selectors.
-Browsers read CSS from right to left. The rightmost selector in a compound selector is know as the key selector. So for instance in `#id .class > ul a`, the key selector is `a`. The browser first matches all key selectors --- in this case `a` elements on the page. It then finds all `ul` elements on the page and filters the anchor list to only those that are descendants of `ul`s, and so on until it reaches the leftmost selector. So here’s the first tip: the shorter the selector the better.
+Browsers read CSS from right to left. The rightmost selector in a compound selector is know as the key selector. So for instance in `#id .class > ul a`, the key selector is `a`. The browser first matches all key selectors --- in this case it finds all elements on the page that match te `a` selector. It then finds all `ul` elements on the page and filters the anchor list to only those that are descendants of `ul`s, and so on until it reaches the leftmost selector. So here’s the first tip: the shorter the selector the better.
 
 Ben Frain created a series of tests to measure selector performance back in 2014. The test consisted of an enormous DOM consisting of 1000 identical elements, and measuring the speed it took to parse various selectors, ranging from IDs to some seriously convoluted and long compound selectors. What he found was that the delta between the slowest and fastest selector was ~15ms.
 
@@ -27,5 +27,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDI0MDc4Nl19
+eyJoaXN0b3J5IjpbLTMwNTg0MDQxMF19
 -->
