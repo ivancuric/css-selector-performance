@@ -59,7 +59,7 @@ You _should_ however stick to using classes whenever possible, and adopt some so
 
 ## Quality over quantity
 
-A bigger problem of simply having expensive selectors is having _a lot_ of them. This is know as "style bloat", and you've probably seen the problem a lot. The typical 
+A bigger problem of simply having expensive selectors is having _a lot_ of them. This is know as "style bloat", and you've probably seen the problem a lot. Typical examples are sites which import entire CSS frameworks like Bootstrap or Foundation, while using less than 10% of the transfered CSS. Anot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTg5ODY1XX0=
+eyJoaXN0b3J5IjpbMTcyNTg3MzExM119
 -->
