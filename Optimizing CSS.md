@@ -47,7 +47,7 @@ The test was bumped up a bit, to 50000 elements, and you can [test it out yourse
 
 The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but `querySelectorAll` comes closer to the real use case of CSS. 
 
-Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, we find that the slowest one is ~20ms, while the fastest is the simple class at ~3.5ms. Not really that much of a difference. In a more "tame" DOM, with around 1000 - 5000 nodes, you can expect those results to d
+Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, we find that the slowest one is ~20ms, while the fastest is the simple class at ~3.5ms. Not really that much of a difference. In a more "tame" DOM, with around 1000 - 5000 nodes, you can expect those results to drop by a factor 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODE2MTM3XX0=
+eyJoaXN0b3J5IjpbMjc1Njk3MjY3XX0=
 -->
