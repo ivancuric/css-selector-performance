@@ -14,7 +14,7 @@ The selectors can roughly be split in a few groups and (roughly) sorted from the
 3. Tag `div`
 4. General and adjacents sibling `div ~ a`, `div + a`
 5. Child and descendant `div > a`, `div a`
-- Universal `*`
+6. Universal `*`
 - Attribute `[type="text"]`
 - Pseudo-classes and elements, `a:first-of-type`, `a:hover`
 
@@ -27,5 +27,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTIyNzYzMF19
+eyJoaXN0b3J5IjpbLTkwNDA5OTMwN119
 -->
