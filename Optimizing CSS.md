@@ -65,7 +65,7 @@ A bigger problem of simply having expensive selectors is having _a lot_ of them.
 
 Not only does a large CSS file take longer to transfer, (and network is the _biggest_ bottleneck in website performance), they also take longer to parse. As well as constructing the DOM from your HTML, the browser needs to construct a CSSOM (CSS Object Model) to compare it with the DOM and match the selectors.
 
-So, keep your styles lean and DRY, don't load everything and the kitchensink, and use UNCSS 
+So, keep your styles lean and DRY, don't include everything and the kitchensink, load what you need and when you need it, and use [UNCSS](https://github.com/giakki/uncss) if you need to.
 
 If you want to go a bit more in depth about how the browsers parse CSS, [check out Nicole Sullivan's post on Webkit](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). 
 
@@ -91,7 +91,7 @@ Finally, the browser converts each node in the render tree to actual pixels on t
 
 Now, what happens when we _change_ some classes on the page?
 
-The browser needs to invalidate 
+The browser needs to invalidate _everything_ down the tree. While 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDY4NzQzNl19
+eyJoaXN0b3J5IjpbLTEyMjc2MTkzNF19
 -->
