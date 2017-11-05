@@ -78,7 +78,7 @@ This complicates things, since parsing CSS in only a single step in the browser 
 The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)</figcaption>
 </figure>
 
-
+This is the more render-oriented view of how the browser renders a frame of animation,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1OTMxMzcwXX0=
+eyJoaXN0b3J5IjpbLTEwNTE5OTc4ODhdfQ==
 -->
