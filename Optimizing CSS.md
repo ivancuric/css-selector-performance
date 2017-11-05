@@ -69,7 +69,7 @@ If you want to go a bit more in depth about how the browsers parse CSS, [check o
 
 ## The elephant in the room - style invalidation
 
-All of this is fine, but it only mentions a single 
+All of the aforementioned is fine, but it only mentions a single rendering pass. Today's websites are no longer static documents, but resemble apps, with dynamic, changing, interactable content. The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDM3MTc0MV19
+eyJoaXN0b3J5IjpbMjExOTg0MTI1OF19
 -->
