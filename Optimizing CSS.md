@@ -7,7 +7,7 @@ Still, there’s something to be said about the topic, especially to weed out so
 
 First, to get on the same page --- this article isn’t about the performance of CSS properties and values. What we’re covering today is the performance cost of the selectors themselves. I will be focusing on the Blink rendering engine, specifically Chrome 62.
 
-The selectors can roughly be split in a few groups and (roughly) sorted from the least to most expensive.
+The selectors can be split in a few groups and (roughly) sorted from the least to most expensive.
 
 1. ID `#classID`
 2. Class `.class`
@@ -28,5 +28,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDIxMDA4XX0=
+eyJoaXN0b3J5IjpbLTk3MzY1MDUwNl19
 -->
