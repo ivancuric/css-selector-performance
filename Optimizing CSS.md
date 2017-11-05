@@ -63,9 +63,9 @@ You _should_ however stick to using classes whenever possible, and adopt some so
 
 A bigger problem of simply having expensive selectors is having _a lot_ of them. This is know as "style bloat", and you've probably seen the problem a lot. Typical examples are sites which import entire CSS frameworks like Bootstrap or Foundation, while using less than 10% of the transfered CSS. Another example are old, never refactored projects whose CSS has devolved into, as I like to call them, "Chronological Style Sheets" - CSS with a ton of appended classes to the end of the file as the project changed and grew, now looking more like an overgrown garden full of weeds.
 
-Not only does a large CSS file take longer to transfer, (and network is the _biggest_ bottleneck in website performance), they also take longer to parse.
+Not only does a large CSS file take longer to transfer, (and network is the _biggest_ bottleneck in website performance), they also take longer to parse. As well as constructing the DOM tree from your HTML, the browser needs to construct a CSS tree, also known as the CSSOM (CSS Object Model), to c
 
-If you want to go a bit more in depth about how the browsers parse CSS, [check out Nicole Sullivan's post on Webkit](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). For now, we'll keep it 
+If you want to go a bit more in depth about how the browsers parse CSS, [check out Nicole Sullivan's post on Webkit](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), [Ilya Grigorik's article on how Blink does it](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model) , or [Lin Clark's article on Mozilla's new Stylo CSS engine](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjgyMDc1XX0=
+eyJoaXN0b3J5IjpbMTYyNTQzMDM1M119
 -->
