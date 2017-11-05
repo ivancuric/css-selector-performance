@@ -59,7 +59,7 @@ You _should_ however stick to using classes whenever possible, and adopt some so
 
 ## Quality over quantity
 
-A bigger problem of simply having expensive selectors is having _a lot_ of them. This is know as "style bloat", and you've probably seen the problem a lot. The t
+A bigger problem of simply having expensive selectors is having _a lot_ of them. This is know as "style bloat", and you've probably seen the problem a lot. The typical 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzMyNDg3MV19
+eyJoaXN0b3J5IjpbMTk3OTg5ODY1XX0=
 -->
