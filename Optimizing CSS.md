@@ -26,7 +26,9 @@ Ben Frain created [a series of tests](https://benfrain.com/css-performance-revis
 
 However, that was back in 2014. Things have changed a lot since then, and memorizing rules is all but useless in the ever-changing browser landscape. Always remember to do your own tests, especially when performance is concerned.
 
-I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Paul Irish's comment](https://alistapart.com/comments/quantity-queries-for-css#338752) expressing concern on the useful, yet convoluted "[quantity selectors](https://alistapart.com/article/quantity-queries-for-css)". 
+I went to do my own tests, and for that I used Paul Lewis' test mentioned in [Paul Irish's comment](https://alistapart.com/comments/quantity-queries-for-css#338752) expressing concern on the useful, yet convoluted "[quantity selectors](https://alistapart.com/article/quantity-queries-for-css)". :
+
+> These selectors are among the slowest possible. ~500 slower than something wild like “div.box:not(:empty):last-of-type .title”. Test page http://jsbin.com/gozula/1/quiet
 
 The test was bumped up a bit, to 50000 elements, and you can [test it out yourself](https://codepen.io/ivancuric/pen/ZaWxqV). I did an average of 10 runs on my 2014 MacBook Pro, and what I got was the following:
 | Selector | Query Time (ms) |
@@ -45,7 +47,7 @@ The test was bumped up a bit, to 50000 elements, and you can [test it out yourse
 
 The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but `querySelectorAll` comes closer to the real use case of CSS. 
 
-Even  in such an extreme case (50000 elements to match), 
+Even  in such an extreme case (50000 elements to match), the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODMyNjU0NF19
+eyJoaXN0b3J5IjpbOTAyOTMzMjU5XX0=
 -->
