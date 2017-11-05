@@ -73,7 +73,7 @@ All of the aforementioned is fine, but it only mentions a single rendering pass.
 
 This complicates things, since parsing CSS in only a single step in the browser rendering pipeline.
 
-![The browserrende](https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg)
+![The browser re](https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNjY4MzhdfQ==
+eyJoaXN0b3J5IjpbLTYyMjc0Mjc3MV19
 -->
