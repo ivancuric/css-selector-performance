@@ -97,11 +97,9 @@ One way to avoid this issue is to reduce the complexity of your selectors. Inste
 
 Another way is to reduce the scope, eg the number of invalidated elements. Be specific with your CSS. Keep this in mind especially during animations, where the browser has only ~10ms to do all the work required.
 
+## What now?
 
-
-## Summary
-
-Well, you probably got what you 
+To sum it up, you shouldn't worry about selector performance. While the t
 
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
@@ -122,5 +120,5 @@ Well, you probably got what you
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NTk5ODIwXX0=
+eyJoaXN0b3J5IjpbLTM1MzUxOTg0MF19
 -->
