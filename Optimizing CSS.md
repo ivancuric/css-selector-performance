@@ -81,7 +81,9 @@ The browser rendering pipeline. Source: Paul Lewis (https://developers.google.co
 
 We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing and laying out the elements.
 
-After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. In that step, the browser needs to figure out the calculated CSS for each matching element. You can see this yourself in the inspect panel of the Developer Tools. Basically, 
+After constructing the DOM and CSSOM, the browser needs to combine the two into a render tree before finally painting it on the screen. In that step, the browser needs to figure out the calculated CSS for each matching element. You can see this yourself in the inspect panel of the Developer Tools. It takes all the matching styles, the cascade, and browser-specific styles to constructe the final - calculated CSS for the element.
+
+It then can
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI4NDQzNl19
+eyJoaXN0b3J5IjpbLTE2NjA3NzMyNjNdfQ==
 -->
