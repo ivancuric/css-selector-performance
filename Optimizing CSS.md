@@ -101,7 +101,9 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 ## Summary
 
-
+### Resources
+[Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
+[Reduce the Scope and Complexity of Style Calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAxNjk4NTFdfQ==
+eyJoaXN0b3J5IjpbNjM2OTgyNjY2XX0=
 -->
