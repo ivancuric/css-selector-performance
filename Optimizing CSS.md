@@ -22,7 +22,7 @@ The selectors can be split in a few groups and (roughly) sorted from the least t
 
 Does this mean that you should only use IDs and classes? Well… Not really. Depends. First let’s cover how browsers interpret CSS selectors.
 
-T
+In order to a
 
 Browsers read CSS from right to left. The rightmost selector in a compound selector is know as the key selector. So for instance in `#id .class > ul a`, the key selector is `a`. The browser first matches all key selectors --- in this case it finds all elements on the page that match te `a` selector. It then finds all `ul` elements on the page and filters the `a`s to contain only those elements that are descendants of `ul`s, and so on until it reaches the leftmost selector. So here’s the first tip: the shorter the selector the better, and make sure that if possible, you keep the key selector a class or ID.
 
@@ -65,5 +65,5 @@ A bigger problem of simply having expensive selectors is having _a lot_ of them.
 
 Not only does a large CSS file take longer to transfer, (and network is the _biggest_ bottleneck in website performance), they also take longer to parse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTczOTAyOV19
+eyJoaXN0b3J5IjpbLTE5NTM3MTk2MDZdfQ==
 -->
