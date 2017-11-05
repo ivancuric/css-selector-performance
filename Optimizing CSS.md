@@ -10,8 +10,8 @@ First, to get on the same page --- this article isn’t about the performance of
 The selectors can roughly be split in a few groups and (roughly) sorted from the least to most expensive.
 
 1. ID `#classID`
-2.- Class `.class`
-- Tag `div`
+2. Class `.class`
+3. Tag `div`
 - General and adjacents sibling `div ~ a`, `div + a`
 - Child and descendant `div > a`, `div a`
 - Universal `*`
@@ -27,5 +27,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTA0MzYzMl19
+eyJoaXN0b3J5IjpbLTU1NzM2MTI5NV19
 -->
