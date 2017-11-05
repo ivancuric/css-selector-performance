@@ -49,7 +49,7 @@ The results will of course vary depending if you use `querySelector` or `querySe
 
 Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, we find that the slowest one is ~20ms, while the fastest is the simple class at ~3.5ms. Not really that much of a difference. In a realistic, more "tame" DOM, with around 1000 - 5000 nodes, you can expect those results to drop by a factor of 10, bringing them to sub-millisecond parsing speeds.
 
-What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors. You should however stick to using classes where
+What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors. You should however stick to using classes whenever possi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDU2MzU5N119
+eyJoaXN0b3J5IjpbLTE2ODMxMDYyNzRdfQ==
 -->
