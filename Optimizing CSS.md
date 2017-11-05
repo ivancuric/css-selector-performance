@@ -89,11 +89,11 @@ It can then proceed to the layout (also known as reflow) step, where it calculat
 
 Finally, the browser converts each node in the render tree to actual pixels on the screen in the paint stage.
 
-Now, what happens when we _change_ some classes on the page?
+Now, what happens when we _change_ some classes on the page, add or remove some nodes, ?
 
 The browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are much smarter, it used to be the case that if you changed a class on the `body` element, all the descendant elements needed to have their computed styles recalculated.
 
-Another example: if you had a selector `.a
+Another example: if you had a selector `.a .b > .c`, and you changed the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDE2Mjk2M119
+eyJoaXN0b3J5IjpbMjQ3NDg0OTAyXX0=
 -->
