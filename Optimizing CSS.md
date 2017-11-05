@@ -69,7 +69,7 @@ If you want to go a bit more in depth about how the browsers parse CSS, [check o
 
 ## The elephant in the room - style invalidation
 
-All of the aforementioned is fine, but it only mentions a single rendering pass. Today's websites are no longer static documents, but resemble apps, with dynamic, changing, interactable content. The br
+All of the aforementioned is fine, but it only mentions a single rendering pass. Today's websites are no longer static documents, but resemble apps, with dynamic, changing, interactable content. Let's see 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIwNjkyMjJdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ4MzExODFdfQ==
 -->
