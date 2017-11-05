@@ -97,7 +97,7 @@ One way to avoid this issue is to reduce the complexity of your selectors. Inste
 
 Another way is to reduce the scope, eg the number of invalidated elements. Be specific with your CSS.
 
-Keep this in mind especially during animations, where you want to keep  
+Keep this in mind especially during animations, where you want to ke 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTAwNDk4XX0=
+eyJoaXN0b3J5IjpbLTczNzU2ODQ4NV19
 -->
