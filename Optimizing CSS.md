@@ -106,6 +106,10 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 [CSS Selector Performance has changed! (For the better)](https://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/)
 
+[Constructing the Object Model](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
+
+[Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/)
+
 [CSS performance revisited: selectors, bloat and expensive styles](https://benfrain.com/css-performance-revisited-selectors-bloat-expensive-styles/)
 
 [Reduce the Scope and Complexity of Style Calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
@@ -115,8 +119,6 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 [CSS Selector performance. An appendix to the book, ECSS that deals with architecting CSS](http://ecss.io/appendix1.html)
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTMyMzk2OF19
+eyJoaXN0b3J5IjpbMTUzNDE1NzU5OV19
 -->
