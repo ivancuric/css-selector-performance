@@ -69,7 +69,7 @@ If you want to go a bit more in depth about how the browsers parse CSS, [check o
 
 ## The elephant in the room - style invalidation
 
-
+All of this is fine, but i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDc4NzgxM119
+eyJoaXN0b3J5IjpbMTU1NzI0MDI2M119
 -->
