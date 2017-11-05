@@ -79,7 +79,9 @@ This complicates things, since parsing CSS in only a single step in the browser 
 The browser rendering pipeline. Source: Paul Lewis (https://developers.google.com/web/fundamentals/performance/rendering/)</figcaption>
 </figure>
 
-We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing.
+We won't be going into JavaScript performance and compositing, but will focus instead on the purple part - style parsing and laying out the elements.
+
+To keep it short, as we said in the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjM4NDYzMF19
+eyJoaXN0b3J5IjpbNTIwNjE4Nzc5XX0=
 -->
