@@ -93,7 +93,7 @@ Now, what happens when we _change_ some classes on the page?
 
 The browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are much smarter, it used to be the case that if you changed a class on the `body` element, all the descendant elements needed to have their computed styles recalculated.
 
-Another example: if you had a selector 
+Another example: if you had a selector `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4NDEyOTJdfQ==
+eyJoaXN0b3J5IjpbLTE2OTk5NDk2OTZdfQ==
 -->
