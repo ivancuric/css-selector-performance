@@ -93,7 +93,11 @@ Now, what happens when we _change_ some classes on the page, add or remove some 
 
 We invalidate the computed styles and the browser needs to invalidate _everything_ down the tree of the matched selectors. While today's browsers are much smarter, it used to be the case that if you changed a class on the `body` element, all the descendant elements needed to have their computed styles recalculated.
 
-One way to avoid this issue is to reduce the complexity of your selectors. Instead of writing `#nav > ul > li > a`, use a single selector, like `.nav-link`. That way you reduce the scope of style invalidation. 
+One way to avoid this issue is to reduce the complexity of your selectors. Instead of writing `#nav > ul > li > a`, use a single selector, like `.nav-link`. That way you reduce the scope of style invalidation.
+
+Another way is to reduce the scope, eg the number of invalidated elements. Be specific with your CSS.
+
+Especially during animations, where you want to keep 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDAzNTgyNV19
+eyJoaXN0b3J5IjpbLTE3MTAxMTI1Ml19
 -->
