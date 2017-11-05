@@ -38,10 +38,10 @@ The test was bumped up a bit, to 50000 elements, and you can [check it out yours
 |`.box ~ .box` | 4.8462 |
 |`.box + .box` | 4.919 |
 |`.box:last-of-type` | 3.8540 |
-|`.box:nth-of-type(2n - 1)` | 18.1350ms |
-|`.box:not(:last-of-type)` | 5.6420ms |
+|`.box:nth-of-type(2n - 1)` | 18.1350 |
+|`.box:not(:last-of-type)` | 5.6420 |
 |`.box:not(:first-of-type)` | 5.1269ms |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjk0OTY2OF19
+eyJoaXN0b3J5IjpbLTEzNTY0MTI1MDhdfQ==
 -->
