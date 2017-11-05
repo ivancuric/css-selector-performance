@@ -47,7 +47,7 @@ The test was bumped up a bit, to 50000 elements, and you can [test it out yourse
 
 The results will of course vary depending if you use `querySelector` or `querySelectorAll`, and the number of elements, but `querySelectorAll` comes closer to the real use case of CSS. 
 
-Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last 
+Even  in such an extreme case, with 50000 elements to match, and using some really insane selectors like the last one, the differe 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE1NDM3NV19
+eyJoaXN0b3J5IjpbLTEwNzc2MDMzODddfQ==
 -->
