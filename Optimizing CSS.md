@@ -51,7 +51,7 @@ Even  in such an extreme case, with 50000 elements to match, and using some real
 
 What we can see from this test is that it's not really worth it to worry over CSS selector performance - just don't overdo it with pseudoselectors and really long selectors.
 
-You _should_ however stick to using classes whenever possible, and adopt some sort of namespacing convention like BEM, SMACSS, OOCSS since it will not only help your website's performance but vastly help with code maintainability. Compound selectors, especially when used with 
+You _should_ however stick to using classes whenever possible, and adopt some sort of namespacing convention like BEM, SMACSS, OOCSS since it will not only help your website's performance but vastly help with code maintainability. Compound selectors, especially when used with tag and un
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc1NzQ5MzVdfQ==
+eyJoaXN0b3J5IjpbMjQzNjc2MDAxXX0=
 -->
