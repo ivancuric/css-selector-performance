@@ -11,7 +11,7 @@ The selectors can roughly be split in a few groups and (roughly) sorted from the
 
 - ID `#classID`
 - Class `.class`
-- Type `div`
+- Tag `div`
 - General and adjacents sibling `div ~ a`, `div + a`
 - Child and descendant `div > a`, `div a`
 - Universal `*`
@@ -27,5 +27,5 @@ However, that was back in 2014. Things have changed a lot since then, and memori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk0Mjk3NzZdfQ==
+eyJoaXN0b3J5IjpbLTk3MzQ0OTc4OF19
 -->
