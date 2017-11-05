@@ -99,7 +99,9 @@ Another way is to reduce the scope, eg the number of invalidated elements. Be sp
 
 ## What now?
 
-To sum it up, you shouldn't worry about selector performance, unless you _really_ go overboard. While the topic was all the rage 5 years ago, browsers have gotten _a lot_ faster and smarter since. Even Google doesn't worry about it anymore. If you check out Google's [Page Speed Insights page](https://developers.google.com/speed/docs/insights/rules), you won't see the rule "Use efficient CSS selectors" which was there in 2013.
+To sum it up, you shouldn't worry about selector performance, unless you _really_ go overboard. While the topic was all the rage 5 years ago, browsers have gotten _a lot_ faster and smarter since. Even Google doesn't worry about it anymore. If you check out Google's [Page Speed Insights page](https://developers.google.com/speed/docs/insights/rules), you won't see the rule "Use efficient CSS selectors" [which was there in 2013.](https://web.archive.org/web/20130330123924/https://developers.google.com/speed/docs/insights/rules)
+
+Instead, focus on making your CSS maintainable and readable. 
 
 ### Resources
 [Style invalidation in Blink](https://docs.google.com/document/d/1vEW86DaeVs4uQzNFI5R-_xS9TcS1Cs_EUsHRSgCHGu8/edit)
@@ -120,5 +122,5 @@ To sum it up, you shouldn't worry about selector performance, unless you _really
 
 [Browser representatives on CSS performance, an appendix to the book Enduring CSS](http://ecss.io/appendix2.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwODAxOTIyXX0=
+eyJoaXN0b3J5IjpbLTE2OTAxMjkzMzBdfQ==
 -->
