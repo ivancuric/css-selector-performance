@@ -85,7 +85,9 @@ After constructing the DOM and CSSOM, the browser needs to combine the two into 
 
 It can then proceed to the layout (also known as reflow) step, where it calculates the geometry, and constructs the box model of the page, placing each element on its respective position on the viewport.
 
-Finally, the 
+Finally, the browser converts each node in the render tree to actual pixels on the screen in the paint stage.
+
+Layout is the most CPU intensive process
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MDk0NTY5XX0=
+eyJoaXN0b3J5IjpbLTE0MzIyNTk0MDZdfQ==
 -->
